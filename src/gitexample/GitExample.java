@@ -20,6 +20,9 @@ public class GitExample {
         List<Integer> array = new ArrayList<>();
         array.add(1);
         
+    public static void addValueForArray(List<Integer> array){
+        for (int i = 0; i < 10; i++) {
+            array.add(i);
+        }
     }
-    
 }
