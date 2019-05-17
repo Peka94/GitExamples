@@ -21,6 +21,7 @@ public class GitExample {
         array.add(1);
         printArray(array);
         addValueForArray(array);
+        System.out.println("Aoo");
     }
     
     public static void addValueForArray(List<Integer> array){
